@@ -1,10 +1,5 @@
 ﻿namespace DrinksInfo.Model
 {
-    public record class Categories()
-    {
-        public string strCategory { set; get; }
-    }
-
     public record class Drink()
     {
         public string? strDrink { get; set; }
@@ -90,6 +85,4 @@
         }
     }
 
-    public record class DrinksResponse(List<Drink>? drinks);
-    public record class DrinksCategories(List<Categories>? drinks);
 }
