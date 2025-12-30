@@ -1,4 +1,4 @@
-﻿namespace DrinksInfo
+﻿namespace DrinksInfo.Model
 {
     public record class Categories()
     {
